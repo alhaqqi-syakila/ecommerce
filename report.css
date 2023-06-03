@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+}
+
+label {
+    color: #5b5b5b;
+    font-size: 14px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem;
+}
+
+textarea {
+    max-width: 235px;
+    min-width: 234.9px;
+    max-height: 200px;
+    overflow: auto;
+    margin-top: .5rem;
+    padding: .5rem .6rem;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 12px;
+    outline: 0;
+}
+
+input[type="date"] {
+    margin-top: .5rem;
+    padding: .5rem .6rem;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    font-size: 12px;
+    outline: 0;
+}
+
+.btn-report {
+    padding: .5rem .6rem;
+    border: 2px solid transparent;
+    background-color: #CCA674;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-bottom: .5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-report:hover {
+    color: #CCA674;
+    background-color: transparent;
+    border-color: #CCA674;
+}
+
+.btn-report:active {
+    transform: scale(.98);
+}
+
+.check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.check p {
+    font-size: 10px;
+    color: #5b5b5b;
+}
+
+textarea:focus,
+textarea:valid,
+input[type="date"]:focus,
+input[type="date"]:valid {
+    border-color: #CCA674;
+}

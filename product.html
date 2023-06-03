@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <i class="bx bx-menu menu-icon"></i>
+            <span class="logo-name">Caldera Furniture</span>
+        </div>
+        <div class="sidebar">
+            <div class="logo">
+                <i class="bx bx-menu menu-icon"></i>
+                <span class="logo-name logo-name-sidebar">Caldera Furniture</span>
+            </div>
+
+            <div class="sidebar-content">
+                <ul class="lists">
+                    <li class="list">
+                        <a href="home.html" class="nav-link">
+                            <i class="bx bx-home-alt icon"></i>
+                            <span class="link">Home</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="product.html" class="nav-link">
+                            <i class='bx bx-shopping-bag icon'></i>
+                            <span class="link">Product</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="payment.html" class="nav-link">
+                            <i class='bx bx-wallet icon'></i>
+                            <span class="link">Payment</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="report.html" class="nav-link">
+                            <i class='bx bx-info-circle icon'></i>
+                            <span class="link">Report</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="bottom-cotent">
+                    <li class="list">
+                        <a href="#" class="nav-link">
+                            <i class="bx bx-cog icon"></i>
+                            <span class="link">Settings</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#" class="nav-link">
+                            <i class="bx bx-log-out icon"></i>
+                            <span class="link">Logout</span>
+                        </a>
+                    </li>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <h2>Special Offers</h2>
+        <div class="card-section">
+            <div class="card card-one">
+                <h1>High Furniture Quality</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque doloribus laborum ipsa modi eum
+                    ipsum ducimus culpa? Quos, aliquam. Animi!</p>
+                <button class="btn btn-card">Explore Me</button>
+            </div>
+            <div class="card card-two">
+                <h2>Discount Up To</h2>
+                <h3>70%</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+                <button class="btn btn-card">Explore Me</button>
+            </div>
+        </div>
+        <section class="product">
+            <div class="best-seller" id="newProduct">
+                <h2>New Product</h2>
+                <div class="nav-best-seller">
+                    <div class="nav-best-seller1">
+                        <a class="btn-best-seller" href="#">All</a>
+                        <a class="btn-best-seller" href="#">Chair</a>
+                        <a class="btn-best-seller" href="#">Table</a>
+                        <a class="btn-best-seller" href="#">Sofa</a>
+                    </div>
+                    <div class="nav-best-seller2">
+                        <h4>Sort by : </h4>
+                        <form action="POST" method="bestSeller.php">
+                            <select name="sorting" id="">
+                                <option value="lowToHigh">Low-High</option>
+                                <option value="highToLow">High-Low</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+        </section>
+        <section class="product-items">
+            <div class="item">
+                <img src="img/chairprod.jpg" alt="" class="img-prod">
+                <div class="card-desc">
+                    <div class="card-title">
+                        <h3>Valkyrie Chair</h3>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+                        quidem. </p>
+                    <span class="footer-shop">
+                        <p>⭐⭐⭐</p><a href="payment.html"><i class='bx bx-cart'></i></a>
+                    </span>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/chairprod2.jpg" alt="" class="img-prod">
+                <div class="card-desc">
+                    <div class="card-title">
+                        <h3>Ychwach Chair</h3>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+                        quidem. </p>
+                    <span class="footer-shop">
+                        <p>⭐⭐⭐⭐</p><a href="payment.html"><i class='bx bx-cart'></i></a>
+                    </span>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/chairprod3.jpg" alt="" class="img-prod">
+                <div class="card-desc">
+                    <div class="card-title">
+                        <h3>Strenreitter Chair</h3>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+                        quidem. </p>
+                    <span class="footer-shop">
+                        <p>⭐⭐⭐⭐⭐</p><a href="payment.html"><i class='bx bx-cart'></i></a>
+                    </span>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/bed.jpg" alt="" class="img-prod">
+                <div class="card-desc">
+                    <div class="card-title">
+                        <h3>Arrancar Bed</h3>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+                        quidem. </p>
+                    <span class="footer-shop">
+                        <p>⭐⭐⭐⭐</p><a href="payment.html"><i class='bx bx-cart'></i></a>
+                    </span>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/bed2.jpg" alt="" class="img-prod">
+                <div class="card-desc">
+                    <div class="card-title">
+                        <h3>Grimjow Bed</h3>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+                        quidem. </p>
+                    <span class="footer-shop">
+                        <p>⭐⭐⭐⭐⭐</p><a href="payment.html"><i class='bx bx-cart'></i></a>
+                    </span>
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/bed3.jpg" alt="" class="img-prod">
+                <div class="card-desc">
+                    <div class="card-title">
+                        <h3>Ulqiorra Bed</h3>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+                        quidem. </p>
+                    <span class="footer-shop">
+                        <p>⭐⭐⭐⭐</p><a href="payment.html"><i class='bx bx-cart'></i></a>
+                    </span>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="overlay"></section>
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
